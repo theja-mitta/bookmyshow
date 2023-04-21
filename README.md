@@ -4,7 +4,7 @@
 
 # Requirements
 
-1. User
+1. Customer
   - Register and signin 
   - Search movie and theatre
   - Filter movies by rating, language, genre, format etc (strategy pattern)
@@ -12,16 +12,17 @@
   - See all his/her bookings for a particular date
   - Add the review for a movie
  
- 2. Theatre Owner
+2. Theatre Owner
   - Add or remove movie shows
   - Cancel a movie show
+  - Add pr remove screens
   - Add or remove seats for a particular show
 
- 3. BookMyShow Admin
+3. BookMyShow Admin
   - Add or remove city
   - Add or remove theatre in a city or list of cities
   
- 4. System
+4. System
   - Onboard users
   - Fetch the list of cities
   - Fetch the list of movies
@@ -50,6 +51,7 @@
 9. Account
 10. Booking
 11. MovieTicket
+12. Location
 
 # Constants:
 1. Gender
