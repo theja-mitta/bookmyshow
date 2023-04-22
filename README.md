@@ -15,7 +15,7 @@ Build a movie show booking system that allows a user to browse the movies in his
     7. BookMyShow admin can support both customers or theatre owners with onbaording or resolving the issues
     8. Customer can search for movies/events running in a particular city and book the tickets for a particular show
     9. Customer can filter the movies/events by language or genre or format
-    10. System can show recommendations to the customers based on their past experience with the site/BMS system
+    10.System can show recommendations to the customers based on their past browsing experience with the site/BMS system
  
 # Responsibilities of each entity in BookMyShow System:
 
