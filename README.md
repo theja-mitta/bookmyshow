@@ -1,8 +1,22 @@
 # BookMyShow
 
+# Problem Statement:
+Build a movie show booking system that allows a user to browse the movies in his/her city and book a show
 
-
-# Requirements
+# Requirements:
+  Book my show system features:
+    1. Register a user (can be a customer or theatre owner or bookmyshow admin)
+    2. System should preselect city for movies/events to list out
+    3. BookMyShow admin can list or delist movies/events into the system
+    4. BookMyShow admin can add more cities into the system
+    5. Theatre owner should signin and add movie shows or screens into the system
+    6. Theatre owner can also delist the shows or cancel the shows
+    7. BookMyShow admin can support both customers or theatre owners with onbaording or resolving the issues
+    8. Customer can search for movies/events running in a particular city and book the tickets for a particular show
+    9. Customer can filter the movies/events by language or genre or format
+    10. System can show recommendations to the customers based on their past experience with the site/BMS system
+ 
+# Responsibilities of each entity in BookMyShow System:
 
 1. Customer
   - Register and signin 
