@@ -5,6 +5,7 @@ Build a movie show booking system that allows a user to browse the movies in his
 
 # Requirements:
   Book my show system features:
+  
     1. Register a user (can be a customer or theatre owner or bookmyshow admin)
     2. System should preselect city for movies/events to list out
     3. BookMyShow admin can list or delist movies/events into the system
