@@ -4,6 +4,48 @@
 Build a movie show booking system that allows a user to browse the movies in his/her city and book a show
 
 # Requirements:
+  Once customer sign in to BMS system and click book tickets for a movie in his city. The customer will be able to select the show and make booking,
+  Then Booking manager handles movie ticket booking and also communicates with other services like Account, Payment, MovieShow for required information.
+
+
+# New Version (Only Ticket Booking system in BMS)
+  
+  # Account Manager
+  
+    1. Responsible for providing user account details like user city, name etc.
+    2. Also manages registration and login of user
+    3. Manages different types of users like BMS customer, BMS Admin, Theatre Owner etc.
+  
+  # Show/Ticket Booking Manager
+    
+    1. Handles all movie show bookings
+    2. Manages booking information of customers
+  
+  # Payment Manager
+    Handles customer ticket booking payments for this system.
+    
+    However it can also do below actions
+      1. Handles all types of payments
+      2. Also manages payments for Book My Show employees
+      3. And deals payments between BookMyShow and Theatre owners
+  
+  # Strategy Manager
+     Manages all strategies and helps other managers with deciding pricing or payment or any other strategy.
+  
+  # Movie Show Manager
+     1. Manages all movie shows running in a city for each day.
+     2. Also provides seat details (like seat type and pricing)
+
+
+# Design patterns can be used:
+  1. Theatres or Seats creation (Factory pattern)
+  2. Ticket Pricing (Strategy or Decorator Pattern)
+  3. Movie filters (Strategy Pattern)
+  4. Search Movies or Events (Strategy Pattern)
+  5. Payment handling (Strategy Pattern)
+
+
+# Version 1: Whole system (High level)
   Book my show system features:
   
     1. Register a user (can be a customer or theatre owner or bookmyshow admin)
